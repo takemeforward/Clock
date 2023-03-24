@@ -38,12 +38,12 @@ html {
   }
 
   .hand {
-    width: 35%;
+    width: 45%;
     height: 6px;
     background: black;
     position: absolute;
-    top: 59%;
-    left: 15%;
+    top: 71%;
+    left: 6%;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
@@ -54,14 +54,18 @@ html {
     background-color: red;
 }
 .min-hand{
+    width: 35%;
+    left: 15%;
     height: 4px;
     background-color: blue;
 }
 .hour-hand{
+    width: 30%;
+    left: 20%;
     height: 6px;
 }
 img{
-    width: 36rem;
+    width: 45rem;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
